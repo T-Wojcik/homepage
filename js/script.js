@@ -34,6 +34,23 @@ buttonDarkMode.addEventListener("click", () => {
                 article__paragraph.classList.add("js-whiteFont");
             }
             aboutMeSection__header.classList.add("js-whiteFont");
+            break;
+        case "DARK MODE":
+            body.classList.remove("js-darkModeBackground");
+            for (let buttonList__button of buttons) {
+                buttonList__button.classList.remove("js-lightModeBackground");
+                buttonList__button.classList.remove("js-darkFont");
+            }
+            caption.classList.remove("js-whiteFont");
+            for (let navigation__link of links) {
+                navigation__link.classList.remove("js-whiteFont");
+            }
+            navigation.classList.remove("js-navigationBorder");
+            for (let article__paragraph of articleParagraphs) {
+                article__paragraph.classList.remove("js-whiteFont");
+            }
+            aboutMeSection__header.classList.remove("js-whiteFont");
+            break;
     }
 })
 
