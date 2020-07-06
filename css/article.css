@@ -1,0 +1,53 @@
+.article {
+    float: left;
+    width: 50%;
+}
+
+.article__paragraph {
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    margin: 20px;
+    color: #333;
+}
+
+.article__awarded {
+    color: #2B8FAD;
+}
+
+.article__important {
+    color: #2B8FAD;
+}
+
+@MEDIA (max-width:965px) {
+    .article {
+        width: 100%;
+    }
+
+    .article__paragraph {
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:823px) {
+    .article {
+        width: 100%;
+    }
+
+    .article__paragraph {
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media (max-width:360px) {
+    .article {
+        width: 100%;
+    }
+
+    .article__paragraph {
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+}

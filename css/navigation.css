@@ -1,0 +1,152 @@
+.navigation {
+    border: 1px solid #333;
+}
+
+@MEDIA (max-width:965px) {
+    .navigation {
+        border: none;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:823px) {
+    .navigation {
+        border: none;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:360px) {
+    .navigation {
+        border: none;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.navigation__list {
+    list-style: none;
+    font-size: 0;
+    padding: 0;
+}
+
+.navigation__item {
+    display: inline-block;
+    width: 25%;
+    height: 80px;
+    text-align: center;
+}
+
+
+.navigation__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    padding: 7px 15px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.navigation__link:focus {
+    outline: 2px solid royalblue;
+}
+
+.navigation__link:hover {
+    border-bottom: 1px solid;
+
+}
+
+.navigation__link:active {
+    color: royalblue;
+}
+
+
+
+@MEDIA (max-width:965px) {
+    .navigation__list {
+        list-style: none;
+        font-size: 0;
+        padding: 0;
+    }
+
+    .navigation__item{
+        display: inline-block;
+        text-align: center;
+        width: 25%;
+        height: 30px;
+    }
+
+
+    .navigation__link {
+        text-decoration: none;
+        font-size: 12px;
+        color: #333;
+        text-transform: uppercase;
+        padding: 10px;
+        line-height: 1;
+    }
+
+}
+
+@media (max-width:823px) {
+    .navigation__list {
+        list-style: none;
+        font-size: 0;
+        padding: 0;
+    }
+
+    .navigation__item {
+        display: inline-block;
+        text-align: center;
+        width: 25%;
+        height: 30px;
+    }
+
+
+    .navigation__link {
+        text-decoration: none;
+        font-size: 12px;
+        color: #333;
+        text-transform: uppercase;
+        padding: 10px;
+        line-height: 1.2;
+    }
+
+}
+
+@media (max-width:360px) {
+    .navigation__list {
+        list-style: none;
+        font-size: 0;
+        padding: 0;
+    }
+
+    .navigation__item {
+        display: inline-block;
+        text-align: center;
+        width: 25%;
+        height: 30px;
+    }
+
+    .navigation__link {
+        text-decoration: none;
+        font-size: 12px;
+        color: #333;
+        text-transform: uppercase;
+        padding: 10px;
+        line-height: 1.2;
+    }
+}
+
+.js-whiteFont {
+    color: white;
+}
+
+.js-navigationBorder{
+    border:1px solid white;
+}

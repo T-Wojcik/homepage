@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/container.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/aboutMeSection.css">
+    <link rel="stylesheet" href="/css/imageContainer.css">
+    <link rel="stylesheet" href="/css/article.css">
+    <link rel="stylesheet" href="/css/tableSection.css">
+    <link rel="stylesheet" href="/css/table.css">
+    <link rel="stylesheet" href="/css/buttonSection.css">
+    <link rel="stylesheet" href="/css/buttonList.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <title>Zadanie tydzień 3</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">Tymoteusz Wójcik</h1>
+        </header>
+        <nav class="navigation" id="sekcja-lista">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__link" href="#sekcja-o-mnie">o mnie</a>
+                </li>
+                <li class="navigation__item"><a class="navigation__link" href="#sekcja-tabela">Tabela</a>
+                </li>
+                <li class="navigation__item"><a class="navigation__link" href="#sekcja-lista">Lista</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#sekcja-test-warunków">Test
+                        Warunków(JS)</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="aboutMeSection" id=sekcja-o-mnie>
+                <h2 class="aboutMeSection__header">Kilka <span class="aboutMeSection__header--colourised">słów</span> o
+                    mnie:</h2>
+                <article class="article">
+                    <p class="article__paragraph">Cześć, mam na imię Tymek. Mieszkam w małopolsce<b
+                            class="article__awarded"> a dokładniej w Nowym
+                            Sączu.</b>
+                        Moje
+                        zainteresowania to między innymi chodzenie po górach, motocykle no i oczywiście programowanie,
+                        dlatego
+                        tutaj jestem! Uwielbiam rozwijać swoje pasje, daje mi to mega motywacje do dalszego
+                        działania.
+                    </p>
+                    <hr>
+                    <p class="article__paragraph"><strong class="article__important">Zapisałem
+                            się na kurs, aby zostać Junior Front-End Developerem</strong> i <em>zrobię wszystko</em> by
+                        tak było, każdy dzień
+                        przybliża
+                        mnie do mojego celu. Jestem osobą bardzo wytrwałą, pracowitą, wiecznie uśmiechniętą, która
+                        uwielbia
+                        siedzieć po nocach i <i>uczyć się nowych rzeczy.</i></p>
+                </article>
+                <div class="imageContainer">
+                    <div class="imageContainer__image"></div>
+                </div>
+            </section>
+            <section class="tableSection">
+                <table class="table" id="sekcja-tabela">
+                    <caption class="table__caption">Tabela moich ulubionych zespołów i ich
+                        albumów:</caption>
+                    <tr class="table__row">
+                        <th class="table__cell--header table__cell" scope="col">Liczba Porządkowa</th>
+                        <th class="table__cell--header table__cell" scope="col">Nazwa zespołu</th>
+                        <th class="table__cell--header table__cell" scope="col">Kraj pochodzenia</th>
+                        <th class="table__cell--header table__cell" scope="col">Ulubiony album</th>
+                        <th class="table__cell--header table__cell" scope="col">Rok wydania</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header table__cell" scope="row">No .1</th>
+                        <td class="table__cell">Iron Maiden</td>
+                        <td class="table__cell">Wielka Brytania</td>
+                        <td class="table__cell">Fear of the Dark</td>
+                        <td class="table__cell">1992</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header table__cell" scope="row">No .2</th>
+                        <td class="table__cell">Nirvana</td>
+                        <td class="table__cell">USA</td>
+                        <td class="table__cell">Nevermind</td>
+                        <td class="table__cell">1991</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header table__cell" scope="row">No .3</th>
+                        <td class="table__cell">Bob Dylan</td>
+                        <td class="table__cell">USA</td>
+                        <td class="table__cell">The Freewheelin’ Bob Dylan</td>
+                        <td class="table__cell">1963</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header table__cell" scope="row">No .4</th>
+                        <td class="table__cell">The Doors</td>
+                        <td class="table__cell">USA</td>
+                        <td class="table__cell">L.A Woman</td>
+                        <td class="table__cell">1971</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header table__cell" scope="row">No .5</th>
+                        <td class="table__cell">Dżem</td>
+                        <td class="table__cell">Polska</td>
+                        <td class="table__cell">Detox</td>
+                        <td class="table__cell">1991</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header table__cell" scope="row">No .6</th>
+                        <td class="table__cell">Metallica</td>
+                        <td class="table__cell">USA</td>
+                        <td class="table__cell">Master of Puppets</td>
+                        <td class="table__cell">1986</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header table__cell" scope="row">No .7</th>
+                        <td class="table__cell">AC/DC</td>
+                        <td class="table__cell">Australia</td>
+                        <td class="table__cell">Back in Black</td>
+                        <td class="table__cell">1980</td>
+                    </tr>
+                </table>
+            </section>
+            <section class="buttonSection" id="sekcja-test-warunków">
+                <ul class="buttonList">
+                    <li class="buttonList__item"><button
+                            class="buttonList__button buttonList--darkMode buttonList--buttonHover">Dark Mode</button>
+                    </li>
+                    <li class="buttonList__item"><button
+                            class="buttonList__button buttonList--timeButton buttonList--buttonHover">Pora dnia</button>
+                    </li>
+                    <li class="buttonList__item"><button
+                            class="buttonList__button buttonList--dayButton buttonList--buttonHover">Dzień
+                            Tygodnia</button></li>
+                    <li class="buttonList__item"><button
+                            class="buttonList__button buttonList--evenButton buttonList--buttonHover">Parzysty
+                            ?</button></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <p class="footer__paragraph">&copy; Wszelkie prawa zastrzeżone. Kontakt: 111-222-333.</p>
+    </footer>
+</body>
+
+</html>

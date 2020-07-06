@@ -1,0 +1,14 @@
+.imageContainer {
+    float: left;
+    width: 50%;
+}
+
+.imageContainer__image {
+    box-shadow: 1px 1px 1px 2px #DDDDDD,
+        -1px -1px 1px 2px #DDDDDD;
+    margin: 0 auto;
+    background-image: url("https://i.postimg.cc/G2ZrsVRF/selfie-Small300.png");
+    background-repeat: no-repeat;
+    width: 266px;
+    height: 300px;
+}

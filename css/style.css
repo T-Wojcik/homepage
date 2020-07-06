@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@MEDIA (max-width:965px) {
+    body {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:823px) {
+    body {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:360px) {
+    body {
+        margin: 0 auto;
+    }
+}
+
+/* DARK MODE */
+
+.js-darkModeBackground {
+    background-color: #333;
+}

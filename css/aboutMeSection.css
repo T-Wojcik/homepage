@@ -1,0 +1,9 @@
+.aboutMeSection__header {
+    font-weight: normal;
+    margin: 60px 0 50px 45px;
+    color: #333;
+}
+
+.aboutMeSection__header--colourised {
+    color: royalblue;
+}

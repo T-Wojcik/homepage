@@ -1,0 +1,48 @@
+.table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: auto;
+}
+
+.table__caption {
+    margin: 40px 0 30px 25px;
+    color: #333;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.table__cell {
+    color: #333;
+    border: 2px solid #eee;
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.table__cell--header {
+    background-color: #25BA8D;
+    color: white;
+    font-size: 16px;
+}
+
+.table__row:nth-child(even) {
+    background-color: #ddd;
+}
+
+.table__row:nth-child(odd) {
+    background-color: white;
+}
+
+.table__row:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+    background-color: #ccc;
+}
+
+.js-whiteFont{
+    color:white;
+}
